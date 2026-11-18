@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data & Large Archives
+*.csv
+*.zip
+*.parquet
+*.feather
+*.h5
+*.npy
+*.npz
+data/
+submissions/*.csv
+
+# Model Weights & Checkpoints
+*.pkl
+*.pt
+*.pth
+*.onnx
+*.bin
+*.model
+catboost_info/
+
+# Environments & Secrets
+.env
+.venv
+env/
+venv/
+ENV/
+*.token
+access_token
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
